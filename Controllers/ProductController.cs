@@ -82,7 +82,7 @@ namespace GeneralStoreMVC.Controllers
             return View(product);
         }
 
-        // POST : Edit
+        // POST : Edit// Product/Edit/{id}
         [HttpPost, ActionName("Edit")]
         [ValidateAntiForgeryToken]
         public ActionResult Edit(Product product)
